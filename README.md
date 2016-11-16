@@ -34,8 +34,19 @@ cd aggdraw-64bits
 ```
 
 ## How to Use
-Try running the following:
 
+To run a video you need run the `extract_scene.py` with a flag followed by the file that contains the scene and the scene to extract.
+
+Example:
+
+```sh
 python extract_scene.py -p example_scenes.py SquareToCircle
+```
 
--p gives a preview of an animation, -w will write it to a file, and -s will show/save the final image in the animation.
+`-p` gives a preview of an animation, `-w` will write it to a file, and `-s` will show/save the final image in the animation.
+
+More examples are contained in the `vocs/` directory (Video Docs). To view the table of contents:
+
+```sh
+python extract_scene.py -p vocs/toc.py TableOfContents
+```

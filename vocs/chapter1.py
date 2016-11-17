@@ -13,7 +13,7 @@ class TexMobjectScene(Scene):
         text3 = TextMobject("""
           \\begin{bmatrix}
           1/2 & 1/4 \\\\
-          1/8 & 1/16 \\\\
+          1/8 & 1/16
           \\end{bmatrix}
           """)
         self.play(Write(text1))
